@@ -1,9 +1,29 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Garamond;
+    letter-spacing: 2px;
+}
+
 #navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+#main-header a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+#main-header a:active {
+    color: lightblue;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
 }
   
 li {
@@ -26,3 +46,12 @@ li a:hover {
 .explanation {
     list-style-type: none;
 }
+
+body {
+    background: white;
+    font-family: Times;
+    font-size: 19px;
+    color: darkslategrey;
+    margin: 0;
+}
+
